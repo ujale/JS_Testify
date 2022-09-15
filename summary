@@ -1,0 +1,74 @@
+1. alert('Hello World')
+
+2. console.log('Hello World')
+
+3. console.log(typeOf('Hello World!'))
+
+4. Datatypes: string, boolean, number (integer & float), null, undefined
+
+5. Operators: 
+Primitive= Assignment (=) ; Arithmetic (+, -, *, /, %); Logical (&&, ||, !); Comparison (>, <, >=, <=, ==, ===)
+Composite = Function, Array, Object
+
+6. Conditional Statements: if, if else, if else if, switch case(break, default)
+const day = 'Monday'
+switch(day){
+    case 'Friday':
+        console.log('TGIF')
+        break
+}
+
+loops: while loop & for loop
+let star = 1
+while(star <= 10){
+    if(star === 1){
+        console.log(star + " star")
+    }else{
+        console.log(star + "stars")
+    }
+    star = star + 1
+}
+
+for(let star =1; star <=10; star = star + 1){
+    if(star === 1){
+        console.log(star + ' Star')
+    }else{
+        console.log(star + ' Stars')
+    }
+}
+
+7. Functions: function myFunction (){
+    console.log('functions contain the function keyword, name, input param & code to run. It alse should be declared by calling the function name')
+}
+myFunction();
+
+function can return 1 value (in bracket) or multiple values [in array]
+B. function addNumbers(firstNumber, secondNumber){
+    const sum = firstNumber + secondNumber;
+    const product = firstNumber * secondNumber
+    return[sum, product]
+}
+console.log(addNumbers(3, 5))
+
+A. formula for conversion is (celsius * 1.8) + 32 = fahrenheit
+function tempconverter(celsius){
+    const fahrenheit = (celsius * 1.8) + 32;
+    return fahrenheit;
+}
+const fahrenheitValue = tempconverter(36);
+console.log(fahrenheitValue);
+
+8. Callback function 
+function greeting(greet){
+    greet();
+}
+
+function callback(){
+   console.log("Good evening")
+}
+
+greeting(callback);
+
+9. Arrays []: push/pop, unshift/shift, splice/slice, indexOf & lastIndexOf
+
+10. Object {}: dot & bracket notation
