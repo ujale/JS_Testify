@@ -1,0 +1,19 @@
+{
+  "name": "javascript-testify",
+  "version": "1.0.0",
+  "description": "js coding challenge",
+  "main": "js_coding_challenge",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujale/JS_Testify.git"
+  },
+  "author": "udeme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ujale/JS_Testify/issues"
+  },
+  "homepage": "https://github.com/ujale/JS_Testify#readme"
+}
