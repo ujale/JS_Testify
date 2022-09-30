@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ujale/JS_Testify.git"
+    "url": "git+https://github.com/ujale/TAS.git"
   },
   "author": "udeme",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ujale/JS_Testify/issues"
+    "url": "https://github.com/ujale/TAS/issues"
   },
-  "homepage": "https://github.com/ujale/JS_Testify#readme"
+  "homepage": "https://github.com/ujale/TAS#readme"
 }

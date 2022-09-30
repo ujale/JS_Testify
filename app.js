@@ -468,7 +468,7 @@
 // }
 // greeting();
 
-// //non arrow function
+// //non arrow function AKA Anonymous function
 // function greet(){
 //     console.log('good evening')
 // }
